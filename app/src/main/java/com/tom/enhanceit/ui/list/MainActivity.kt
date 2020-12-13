@@ -17,7 +17,7 @@ class MainActivity : BaseActivity() {
     private val launchesAdapter: LaunchesAdapter = LaunchesAdapter(::onLaunchClicked)
     lateinit var binding: ActivityMainBinding
 
-    private val presenter: ListPresenter by inject()
+    private val presenter: PresenterSpaceX by inject()
     private val schedulers: AppSchedulers by inject()
 
     override fun onCreate(savedInstanceState: Bundle?) {
