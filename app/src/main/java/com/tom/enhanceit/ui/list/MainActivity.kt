@@ -19,7 +19,7 @@ class MainActivity : BaseActivity() {
 
     private val presenter: ListPresenter by inject()
     private val schedulers: AppSchedulers by inject()
-gst
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
